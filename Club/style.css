@@ -1,0 +1,27 @@
+body{
+      text-align: center; 
+    }
+h1{ 
+      margin-right: 170px;
+  }
+table{
+       width: 45%;
+       margin-left: 370px;
+       font-size: 1.4em;
+     }
+td{
+    border-bottom: 1px solid gray;
+   }
+p{
+  margin-right: 150px;
+  text-shadow: 1px 1px 4px #f19328;
+  font-size: 22px;
+}
+.hero-image {
+  background-image: url("dancer.jpg");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: 500px;
+  position: relative;
+  width:110%;
+}

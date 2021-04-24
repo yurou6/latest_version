@@ -1,0 +1,58 @@
+
+.back{
+    width:1600px;
+    height:500px;
+    margin:-10px 0px 0px -10px;
+    background-image: url(race.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.track {
+    background-image: url(1.png);
+    background-repeat: repeat-x;
+    margin:400px 200px 0px 0px;
+    bottom: -363px;
+    width: 2000px;
+    height: 300px;
+    animation: trackanimation 8s linear infinite;
+}
+.car{
+    width: 170px;
+    height:80px;
+    margin:-350px 300px 0px 600px;
+    background-color:green;  
+    position: relative;
+}
+.wheel {
+    position: absolute;
+    animation: wheelanimation linear .6s infinite;
+}
+.wheel1 {
+    background-image: url(wheel-md.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 46px;
+    height: 49px;
+    bottom: 51px;
+    left: 610px;
+}
+.wheel2 {
+    background-image: url(wheel2-md.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 47px;
+    bottom: 50px;
+    left: 716px;
+}
+@keyframes wheelanimation{ 
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes trackanimation {
+    100% {
+        transform: translate(-500px);
+    }
+}

@@ -1,0 +1,22 @@
+p, ul{
+    border:2px solid purple;
+    padding:0.5em;
+}
+
+.block, li{
+    border:2px solid blue;
+    padding:0.5em;
+}
+
+ul{
+    display:flex;
+    list-style:none;
+}
+
+li{
+    margin: 0px 5px;
+}
+
+.block{
+    display: block;
+}
